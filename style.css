@@ -232,3 +232,15 @@ body{
 
 
 }
+
+@media screen and (max-width: 768px) {
+    .destination {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .destination {
+        flex-basis: 100%;
+    }
+}
